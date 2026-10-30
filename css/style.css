@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Cairo:wght@200..1000&family=El+Messiri:wght@400..700&family=Playpen+Sans+Arabic:wght@100..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  font-family: "El Messiri", sans-serif;
+}
+
+section {
+  width: 100%;
+}
+
+#header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #353635;
+  border-bottom: 3px solid #23a0c2;
+  padding: 0px 50px;
+}
+
+#branding h1 {
+  font-size: 28px;
+}
+
+nav > ul {
+  margin-top: 0px;
+  list-style-type: none;
+}
+
+#header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav > ul > li {
+  float: right;
+  margin-left: 15px;
+}
+
+#header .highlight,
+#header .current a {
+  color: #23a0c2;
+  font-weight: bold;
+}
+
+#showcase {
+  background: url("../img/backgron1.jpg") no-repeat center center/cover;
+  min-height: 400px;
+  color: #fff;
+  text-align: center;
+}
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#newsletter {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #353635;
+  color: #fff;
+  padding: 15px 40px;
+}
+
+#newsletter form {
+  display: flex;
+  flex-wrap: row wrap;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+  flex-grow: 5;
+}
+
+.button {
+  height: 38px;
+  background: #cccccc;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #353637;
+  flex-grow: 5;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: row wrap;
+  margin-top: 20px;
+  padding: 60px 120px;
+}
+
+.box {
+  margin-left: 30px;
+  text-align: center;
+}
+
+footer {
+  background: #32a0c2;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media (max-width: 592px) {
+  #header {
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 776px) {
+  #newsletter {
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 1154px) {
+  .boxes {
+    flex-direction: column;
+  }
+}
