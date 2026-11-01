@@ -16,8 +16,6 @@ This project was built as a final project for completing the **HTML + CSS + Java
 
 ## 🚀 Live Demo
 
-> _Coming soon — deploy to GitHub Pages or Netlify and add the link here._
-
  [View Live Demo](https://mohammed-mfsa99.github.io/personal-page) 
 
 ---
