@@ -1,7 +1,5 @@
 # Personal Profile
 
-A simple personal webpage and project gallery built with basic HTML, CSS, and vanilla JavaScript. This is my very first web development project, created as a hands-on exercise to practice the fundamentals after finishing a web basics course.
-
 ---
 
 ## 📌 About the Project
