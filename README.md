@@ -1,44 +1,44 @@
-# My Profile Page — صفحتي الشخصية
+# Personal Profile
 
-A modern and responsive personal profile page built with HTML, CSS, and JavaScript as a capstone project for learning web development fundamentals.
+A simple personal webpage and project gallery built with basic HTML, CSS, and vanilla JavaScript. This is my very first web development project, created as a hands-on exercise to practice the fundamentals after finishing a web basics course.
 
 ---
 
 ## 📌 About the Project
 
-**My Profile Page** is a responsive Arabic (RTL) personal portfolio website designed to showcase skills and projects in a clean and professional layout.
+This is my first hands-on web project, built to practice and apply the core fundamentals of **HTML5, CSS3, and JavaScript** without using any frameworks, build tools, or templates.
 
-The project includes a **home page** with a hero section, newsletter subscription, and service cards, along with a **gallery page** featuring an interactive image slider with project descriptions.
+The project contains two simple pages:
+- **Home (`index.html`):** A basic profile page introducing services, an email subscription box, and contact information.
+- **Gallery (`gallery.html`):** A simple image slider built from scratch with plain JavaScript to display project screenshots alongside a short description for each.
 
-This project was built as a final project for completing the **HTML + CSS + JavaScript** learning path.
+The primary goal of building this was practical learning: understanding page layout with Flexbox, writing custom media queries for different screen widths, handling RTL Arabic text, and practicing basic DOM manipulation in JavaScript.
 
 ---
 
 ## 🚀 Live Demo
 
- [View Live Demo](https://mohammed-mfsa99.github.io/personal-page) 
+[View Live Demo](https://mohammed-mfsa99.github.io/personal-page)
 
 ---
 
 ## 📸 Screenshots
 
- ![Desktop Screenshot](screenshots/desktop.png)
-<!-- ![Mobile Screenshot](screenshots/mobile.png) -->
+![Desktop Screenshot](screenshots/desktop.png)
+
 
 ---
 
 ## ✨ Features
 
-- ✅ Responsive design with CSS media queries
-- ✅ Right-to-Left (RTL) Arabic layout
-- ✅ Modern and clean user interface
-- ✅ Interactive image slider with JavaScript
-- ✅ Dynamic project descriptions linked to slider
-- ✅ Newsletter subscription section
-- ✅ Service cards with Font Awesome icons
-- ✅ Multi-page navigation (Home + Gallery)
-- ✅ Mobile-friendly layout
-- ✅ Cross-browser compatible
+- Simple 2-page static website (Home & Gallery)
+- Right-to-Left (RTL) Arabic text layout
+- Layout structured with CSS Flexbox
+- Basic responsive adjustments for mobile and tablets via media queries
+- Custom image slider built with vanilla JavaScript (no slider libraries)
+- Dynamic description updates based on the active slide
+- Service highlights using Font Awesome icons
+- Custom Arabic typography with Google Fonts
 
 ---
 
@@ -46,98 +46,72 @@ This project was built as a final project for completing the **HTML + CSS + Java
 
 | Technology | Usage |
 |---|---|
-| **HTML5** | Page structure and semantic markup |
-| **CSS3** | Styling, Flexbox layout, and media queries |
-| **JavaScript** | Interactive image slider and DOM manipulation |
-| **Font Awesome 7** | Icons throughout the interface |
-| **Google Fonts** | Arabic fonts (El Messiri) |
+| **HTML5** | Semantic structure for both pages |
+| **CSS3** | Flexbox layouts, basic responsiveness, and styling |
+| **JavaScript** | Slider navigation and DOM manipulation |
+| **Font Awesome** | Icons for services and navigation |
+| **Google Fonts** | Arabic font (*El Messiri*) |
 
 ---
 
 ## 📂 Project Structure
 
 ```
-remp-profile-1/
+personal-page/
 │
 ├── css/
 │   ├── style.css          # Main stylesheet
-│   └── slider.css         # Image slider styles
+│   └── slider.css         # Slider styles
 │
 ├── js/
-│   └── slider.js          # Slider logic and DOM manipulation
+│   └── slider.js          # Slider logic (vanilla JS)
 │
 ├── img/
-│   ├── backgron1.jpg      # Hero background image
-│   ├── pek1.png           # Gallery image 1
-│   ├── pek2.png           # Gallery image 2
-│   ├── pek3.png           # Gallery image 3
-│   ├── pek4.png           # Gallery image 4
-│   └── pek5.png           # Gallery image 5
+│   ├── backgron1.jpg      # Header background image
+│   ├── pek1.png           # Gallery preview 1
+│   ├── pek2.png           # Gallery preview 2
+│   ├── pek3.png           # Gallery preview 3
+│   └── pek4.png           # Gallery preview 4
 │
-├── index.html             # Home page
-├── gallery.html           # Gallery / Portfolio page
+├── index.html             # Main profile page
+├── gallery.html           # Gallery / Slider page
 └── README.md
 ```
 
 ---
 
-## 💻 Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/username/remp-profile-1.git
-```
-
-2. Navigate to the project directory:
-
-```bash
-cd remp-profile-1
-```
-
-3. Open `index.html` in your browser.
-
----
-
 ## 📱 Responsive Design
 
-The interface has been designed to work across:
+Basic responsive rules applied via CSS media queries:
 
-| Screen Size | Breakpoint |
+| Breakpoint | Applied Change |
 |---|---|
-| 📱 Mobile | `< 592px` — Header centers content |
-| 📱 Tablet | `< 776px` — Newsletter section centers |
-| 💻 Laptop/Desktop | `< 1154px` — Service boxes stack vertically |
-| 🖥️ Large Desktop | Full horizontal layout |
+| `< 1154px` | Service boxes stack vertically into a single column |
+| `< 776px` | Newsletter form wraps and centers for smaller screens |
+| `< 592px` | Header branding and navigation links center for mobile |
 
 ---
 
 ## 📚 What I Learned
 
-Through this project, I practiced:
+Through building this first project, I practiced:
 
-- 🔹 Creating responsive layouts using **CSS Flexbox**
-- 🔹 Working with **media queries** for different screen sizes
-- 🔹 Building an **RTL (Right-to-Left)** Arabic interface
-- 🔹 Implementing an **interactive image slider** with vanilla JavaScript
-- 🔹 Using **DOM manipulation** (`querySelectorAll`, event listeners, `classList`)
-- 🔹 Using **CSS transitions** for smooth animations (`transform`, `transition`)
-- 🔹 Integrating **external libraries** (Font Awesome, Google Fonts via CDN)
-- 🔹 Organizing a **multi-page frontend project** structure
-- 🔹 Improving **spacing, typography**, and visual design consistency
+- Structuring multi-page static websites with HTML
+- Page layout using **CSS Flexbox**
+- Writing media queries from scratch without CSS frameworks
+- Basic **DOM manipulation** in JavaScript (`querySelectorAll`, `addEventListener`, `classList`, `style.transform`)
+- Linking UI state (changing the active description when clicking slider dots)
+- Working with RTL (Right-to-Left) direction in CSS
+- Organizing assets into clean directories (`css/`, `js/`, `img/`)
 
 ---
 
 ## 🔮 Future Improvements
 
-- [ ] Add smooth scroll animations and transitions
-- [ ] Improve accessibility (ARIA labels, keyboard navigation)
-- [ ] Add dark mode toggle
-- [ ] Optimize images for better performance
-- [ ] Add a contact form page
-- [ ] Deploy to GitHub Pages
-- [ ] Add auto-play functionality to the image slider
-- [ ] Replace placeholder text with real content
+- [ ] Add touch swipe support to the mobile slider
+- [ ] Replace placeholder text with real project data
+- [ ] Improve form validation for the newsletter input
+- [ ] Enhance accessibility (keyboard navigation & ARIA labels)
 
 ---
 
@@ -146,6 +120,8 @@ Through this project, I practiced:
 **Mohammed Faez**
 Frontend Web Developer
 
-- GitHub: [your-github](https://github.com/mohammed-MFSA99)
-- LinkedIn: [your-linkedin](https://www.linkedin.com/in/mohammed-faez-alameri)
+- GitHub: [mohammed-MFSA99](https://github.com/mohammed-MFSA99)
+- LinkedIn: [Mohammed Faez](https://www.linkedin.com/in/mohammed-faez-alameri)
+
+---
 
