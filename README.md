@@ -22,9 +22,7 @@ This project was built as a final project for completing the **HTML + CSS + Java
 
 ## 📸 Screenshots
 
-> _Add screenshots of your project here._
-
-<!-- ![Desktop Screenshot](screenshots/desktop.png) -->
+ ![Desktop Screenshot](screenshots/desktop.png)
 <!-- ![Mobile Screenshot](screenshots/mobile.png) -->
 
 ---
@@ -150,10 +148,4 @@ Frontend Web Developer
 
 - GitHub: [your-github](https://github.com/mohammed-MFSA99)
 - LinkedIn: [your-linkedin](https://www.linkedin.com/in/mohammed-faez-alameri)
-
----
-
-## 📄 License
-
-This project is available under the [MIT License](LICENSE).
 
